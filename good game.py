@@ -36,7 +36,9 @@ while True:
     # for i in range(380):
     draw.circle(win,BLACK,(x,y),25)
     y=y+1
-    if y==400:
+    if y==405:
+        if x_rect<=x<=x_rect+70 :
+            print("каснулся")
         y=20
         x = random.randint(25,375)
     draw.circle(win,WHITE,(x,y),25)

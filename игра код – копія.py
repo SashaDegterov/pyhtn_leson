@@ -43,8 +43,8 @@ while True:
                     win.fill(rrr)
                     display.update()
                 if 160<i.pos[0]<160+70 and 200<i.pos[1]<200+30:
-                         #tank_skeil=transform.scale(tank,(50,50))
-                        #if 
+                         tank_skeil=transform.scale(tank,(50,50))
+                        if 
                     win.fill(www)
                     tank_skeil_100=transform.scale(tank,(100,100))
                     win.blit(tank_skeil_100,(10,100))
@@ -52,8 +52,8 @@ while True:
                     tanksik=image.load("tanksik.jpg")
                     tanksik_skeil=transform.scale(tanksik,(100,100))
                     win.blit(tanksik_skeil,(200,100))
-                    #if tank=image.load("tank.png")
-                        #tank_skeil=transform.scale(tank,(50,50))
-                        #win.blit(tank_skeil,(10,100))
-                    #display.flip()
+                    # if tank=image.load("tank.png")
+                    #     tank_skeil=transform.scale(tank,(50,50))
+                        win.blit(tank_skeil,(10,100))
+                    display.flip()
                     display.update()
